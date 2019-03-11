@@ -22,10 +22,10 @@ render(){
    // creates the react virtual DOM compares to actual browser DOM , and then updates actual DOM
    //creates objects and only changes what needs to be done in DOM
    //beacuase its js we have to use className
-    <div className="f3 tc"><h1>OrlandoMg!</h1>
+  <div className="f3 tc">
+  <h1>OrlandoMg!</h1>
   <p> whats up dudes</p>
   <p>yeah man</p>
-
   <p>{this.props.greeting}</p>
   </div>
 )
