@@ -4,13 +4,15 @@ import './index.css';//add css to each different componment to aplly to app.js c
 //import App from './App';//if no dot it assumes its javascript
 //import MyComponent from "./MyComponent.js"
 import * as serviceWorker from './serviceWorker';
-
+import App from "./App";
 import CardList from "./CardList";
 //library for css dircetly applying to jsx , html
 import "tachyons";
-import {robots} from "./Robots";
+
 ReactDOM.render(
-<CardList robots={robots} />
+
+<App />
+
 , document.getElementById('root'));//what react does , use function render , want to render app to document (root)
 // render funstion takes 2 arguments what you are rendering from to where you are rendering
 
